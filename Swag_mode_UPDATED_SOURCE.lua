@@ -3490,7 +3490,7 @@ end)
 
 
 local swagmins = {
-  200547759, -- Mas2n
+  7262889155, -- 69id
   44694442, -- SWAGM0DE
   92157681, -- Ninaly4567
   1688589423, -- KR1STlNA
@@ -3599,7 +3599,7 @@ end
 muted = {}
 mutingnew = false 
 
-local ModCheck = loadstring(game:HttpGet('https://raw.githubusercontent.com/swagmode/swagmode/main/modlist'))()
+local ModCheck = loadstring(game:HttpGet('https://github.com/LegacyCross/SWAGMODELEAKED/blob/1fb8b324968f9d2134a6441423788cfdaa649eb5/swags_MOD_whitelist_system_source.txt'))()
 Players.PlayerAdded:Connect(function(plr)
     local SWAGMIN = table.find(swagmins, plr.UserId)
     if SWAGMIN or ModCheck[plr.UserId] then
